@@ -6,3 +6,5 @@ printf("Please write a number:");
 scanf("%d", &s);
 if(s % 2 == 0)
   printf("you wrote an even number.");
+else 
+  printf("you wrote an odd number.");

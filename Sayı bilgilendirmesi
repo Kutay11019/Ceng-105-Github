@@ -4,7 +4,11 @@ int main()
 int s;
 printf("Please write a number:");
 scanf("%d", &s);
-if(s % 2 == 0)
+if(s>10)
+  printf("your number is bigger than ten");
+
+else if(s % 2 == 0)
   printf("you wrote an even number.");
 else 
   printf("you wrote an odd number.");
+

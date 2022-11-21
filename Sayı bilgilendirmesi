@@ -9,12 +9,11 @@ if(s>10)
 else if(s<0)
   printf("your number is negative");
 else if(s % 2 == 0)
-  printf("you wrote an even number.");
+  printf("you wrote an even number \n");
 else 
-  printf("you wrote an odd number.");
+  printf("you wrote an odd number \n");
   
-if(s=>0 && s<10)
+if(s>=0 && s<10)
   printf("your number is a figure");
-  
-  
-  
+
+return 0;

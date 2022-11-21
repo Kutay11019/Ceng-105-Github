@@ -13,3 +13,8 @@ else if(s % 2 == 0)
 else 
   printf("you wrote an odd number.");
   
+if(s=>0 && s<10)
+  printf("your number is a figure");
+  
+  
+  
